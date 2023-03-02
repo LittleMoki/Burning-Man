@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.section {
+	width: 1300px;
+	height: 610px;
+}
+
+#special_section {
+	width: 1300px;
+	height: 625px;
+	background-image: url(../img/back_ground/header-bg.jpg);
+}
+
+.navbar {
+	width: 1200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	margin-left: 30px;
+}
+
+.l_navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav_link ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin-left: 60px;
+}
+
+.nav_link li a {
+	color: white;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+.nav_link li a:hover {
+	border-bottom: 2px solid white;
+}
+
+.phone {
+	display: flex;
+	justify-content: end;
+	margin-left: 400px;
+}
+
+.phone a {
+	color: white;
+	text-decoration: none;
+}
+
+.offer {
+	width: 500px;
+	height: 300px;
+	margin: 150px 155px;
+}
+
+.offer h3 {
+	font-size: 30px;
+	color: white;
+}
+
+.offer h1 {
+	font-size: 90px;
+	color: white;
+}
+
+.offer h6 {
+	width: 238px;
+	height: 57px;
+	background-color: none;
+	border: 1px solid #fff;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.offer h6:hover {
+	background-color: white;
+	color: black;
+	transition: all .3s;
+}
+
+/* section2 */
+.about{
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.about h1{
+	margin-left: 37px;
+}
+.about_texts{
+	display: flex;
+	justify-content: space-around;
+}
+.about_text1{
+	width: 550px;
+	margin-top: 50px ;
+	margin-left: 0;
+}
+.about_text2{
+	width: 550px;
+	margin-top: 50px ;
+}
+.about_text p{
+	font-size: 16px;
+}
+.about_img{
+	margin-top: 65px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer{
+	display: flex;
+	justify-content: flex-start;
+	padding: 80px 0px;
+	font-size: 12px;
+}
+.footer p{
+	margin-left: 70px;
+}
